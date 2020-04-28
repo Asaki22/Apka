@@ -1,0 +1,34 @@
+﻿@model App.Models.Zlecenia
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Zlecenia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Firma)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Firma)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Termin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Termin)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ZlecenieID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

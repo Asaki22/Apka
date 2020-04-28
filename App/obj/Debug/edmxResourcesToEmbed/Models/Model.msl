@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EntityDBModelStoreContainer" CdmEntityContainer="EntityDBEntities">
+    <EntitySetMapping Name="Magazyn">
+      <EntityTypeMapping TypeName="EntityDBModel.Magazyn">
+        <MappingFragment StoreEntitySet="Magazyn">
+          <ScalarProperty Name="ProduktID" ColumnName="ProduktID" />
+          <ScalarProperty Name="Spakowano" ColumnName="Spakowano" />
+          <ScalarProperty Name="Wyslano" ColumnName="Wyslano" />
+          <ScalarProperty Name="Miejsce" ColumnName="Miejsce" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Produkty">
+      <EntityTypeMapping TypeName="EntityDBModel.Produkty">
+        <MappingFragment StoreEntitySet="Produkty">
+          <ScalarProperty Name="ProduktID" ColumnName="ProduktID" />
+          <ScalarProperty Name="ZlecenieID" ColumnName="ZlecenieID" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="IloscZamowiona" ColumnName="IloscZamowiona" />
+          <ScalarProperty Name="Uwagi" ColumnName="Uwagi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Spawanie">
+      <EntityTypeMapping TypeName="EntityDBModel.Spawanie">
+        <MappingFragment StoreEntitySet="Spawanie">
+          <ScalarProperty Name="ProduktID" ColumnName="ProduktID" />
+          <ScalarProperty Name="IloscWykonana" ColumnName="IloscWykonana" />
+          <ScalarProperty Name="CzasSpawania" ColumnName="CzasSpawania" />
+          <ScalarProperty Name="Pospawano" ColumnName="Pospawano" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Uzytkownicy">
+      <EntityTypeMapping TypeName="EntityDBModel.Uzytkownicy">
+        <MappingFragment StoreEntitySet="Uzytkownicy">
+          <ScalarProperty Name="UzytkownikID" ColumnName="UzytkownikID" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Haslo" ColumnName="Haslo" />
+          <ScalarProperty Name="Uprawnienia" ColumnName="Uprawnienia" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Wypalanie">
+      <EntityTypeMapping TypeName="EntityDBModel.Wypalanie">
+        <MappingFragment StoreEntitySet="Wypalanie">
+          <ScalarProperty Name="ProduktID" ColumnName="ProduktID" />
+          <ScalarProperty Name="IloscWykonana" ColumnName="IloscWykonana" />
+          <ScalarProperty Name="CzasWypalania" ColumnName="CzasWypalania" />
+          <ScalarProperty Name="Wypalono" ColumnName="Wypalono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zaginanie">
+      <EntityTypeMapping TypeName="EntityDBModel.Zaginanie">
+        <MappingFragment StoreEntitySet="Zaginanie">
+          <ScalarProperty Name="ProduktID" ColumnName="ProduktID" />
+          <ScalarProperty Name="IloscWykonana" ColumnName="IloscWykonana" />
+          <ScalarProperty Name="CzasZaginania" ColumnName="CzasZaginania" />
+          <ScalarProperty Name="Pogieto" ColumnName="Pogieto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zlecenia">
+      <EntityTypeMapping TypeName="EntityDBModel.Zlecenia">
+        <MappingFragment StoreEntitySet="Zlecenia">
+          <ScalarProperty Name="ZlecenieID" ColumnName="ZlecenieID" />
+          <ScalarProperty Name="Firma" ColumnName="Firma" />
+          <ScalarProperty Name="Termin" ColumnName="Termin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

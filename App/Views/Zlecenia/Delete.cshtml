@@ -1,0 +1,40 @@
+﻿@model App.Models.Zlecenia
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+
+<h3>Czy na pewno chcesz usunąć to zlecenie?</h3>
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Firma)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Firma)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Termin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Termin)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Usuń" class="btn btn-default" /> |
+            @Html.ActionLink("Wróć do listy", "Index")
+        </div>
+    }
+</div>

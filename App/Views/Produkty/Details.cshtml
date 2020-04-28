@@ -1,0 +1,50 @@
+﻿@model App.Models.Produkty
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Produkty</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Produkt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Produkt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IloscZamowiona)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IloscZamowiona)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Uwagi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Uwagi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Zlecenia.Firma)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Zlecenia.Firma)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProduktID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

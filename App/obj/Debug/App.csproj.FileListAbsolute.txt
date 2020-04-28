@@ -1,0 +1,184 @@
+c:\users\agatka\source\repos\App\App\bin\ApplicationInsights.config
+c:\users\agatka\source\repos\App\App\bin\App.dll.config
+c:\users\agatka\source\repos\App\App\bin\App.dll
+c:\users\agatka\source\repos\App\App\bin\App.pdb
+c:\users\agatka\source\repos\App\App\bin\Antlr3.Runtime.dll
+c:\users\agatka\source\repos\App\App\bin\EntityFramework.dll
+c:\users\agatka\source\repos\App\App\bin\EntityFramework.SqlServer.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AI.Web.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AI.WindowsServer.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.ApplicationInsights.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.Google.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Web.Infrastructure.dll
+c:\users\agatka\source\repos\App\App\bin\Newtonsoft.Json.dll
+c:\users\agatka\source\repos\App\App\bin\Owin.dll
+c:\users\agatka\source\repos\App\App\bin\System.Web.Helpers.dll
+c:\users\agatka\source\repos\App\App\bin\System.Web.Mvc.dll
+c:\users\agatka\source\repos\App\App\bin\System.Web.Optimization.dll
+c:\users\agatka\source\repos\App\App\bin\System.Web.Razor.dll
+c:\users\agatka\source\repos\App\App\bin\System.Web.WebPages.Deployment.dll
+c:\users\agatka\source\repos\App\App\bin\System.Web.WebPages.dll
+c:\users\agatka\source\repos\App\App\bin\System.Web.WebPages.Razor.dll
+c:\users\agatka\source\repos\App\App\bin\WebGrease.dll
+c:\users\agatka\source\repos\App\App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\agatka\source\repos\App\App\bin\System.Web.Helpers.xml
+c:\users\agatka\source\repos\App\App\bin\System.Web.Mvc.xml
+c:\users\agatka\source\repos\App\App\bin\System.Web.Optimization.xml
+c:\users\agatka\source\repos\App\App\bin\System.Web.Razor.xml
+c:\users\agatka\source\repos\App\App\bin\System.Web.WebPages.xml
+c:\users\agatka\source\repos\App\App\bin\System.Web.WebPages.Deployment.xml
+c:\users\agatka\source\repos\App\App\bin\System.Web.WebPages.Razor.xml
+c:\users\agatka\source\repos\App\App\bin\Antlr3.Runtime.pdb
+c:\users\agatka\source\repos\App\App\bin\Newtonsoft.Json.xml
+c:\users\agatka\source\repos\App\App\bin\EntityFramework.xml
+c:\users\agatka\source\repos\App\App\bin\EntityFramework.SqlServer.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.Google.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.ApplicationInsights.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AI.WindowsServer.xml
+c:\users\agatka\source\repos\App\App\bin\Microsoft.AI.Web.xml
+c:\users\agatka\source\repos\App\App\bin\pl\System.Web.Helpers.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\System.Web.Mvc.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\System.Web.Optimization.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\System.Web.Razor.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\System.Web.WebPages.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\System.Web.WebPages.Deployment.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\System.Web.WebPages.Razor.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\Microsoft.Owin.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\Microsoft.Owin.Security.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\agatka\source\repos\App\App\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\agatka\source\repos\App\App\obj\Debug\App.csprojResolveAssemblyReference.cache
+c:\users\agatka\source\repos\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+c:\users\agatka\source\repos\App\App\obj\Debug\App.dll
+c:\users\agatka\source\repos\App\App\obj\Debug\App.pdb
+C:\Users\Agatka\source\repos\App\App\bin\PagedList.dll
+C:\Users\Agatka\source\repos\App\App\bin\PagedList.Mvc.dll
+C:\Users\Agatka\source\repos\App\App\bin\PagedList.xml
+C:\Users\Agatka\source\repos\App\App\bin\PagedList.Mvc.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\ApplicationInsights.config
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\App.dll.config
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\App.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\App.pdb
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Antlr3.Runtime.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\EntityFramework.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\EntityFramework.SqlServer.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AI.Web.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Newtonsoft.Json.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Owin.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\PagedList.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\PagedList.Mvc.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.Helpers.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.Mvc.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.Optimization.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.Razor.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.WebPages.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.WebPages.Razor.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\WebGrease.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\PagedList.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\PagedList.Mvc.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.Helpers.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.Mvc.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.Optimization.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.Razor.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.WebPages.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\System.Web.WebPages.Razor.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Antlr3.Runtime.pdb
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Newtonsoft.Json.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\EntityFramework.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\EntityFramework.SqlServer.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\Microsoft.AI.Web.xml
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\System.Web.Razor.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\Microsoft.Owin.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\Microsoft.Owin.Security.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\obj\Debug\App.csprojResolveAssemblyReference.cache
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\obj\Debug\App.dll
+C:\Users\Agatka\Desktop\Nowy folder (2)\App\App\obj\Debug\App.pdb

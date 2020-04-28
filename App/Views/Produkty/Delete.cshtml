@@ -1,0 +1,56 @@
+﻿@model App.Models.Produkty
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+
+<h3>Czy na pewno chcesz usunąć ten produkt?</h3>
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Produkt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Produkt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IloscZamowiona)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IloscZamowiona)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Uwagi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Uwagi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Zlecenia.Firma)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Zlecenia.Firma)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Usuń" class="btn btn-default" /> |
+            @Html.ActionLink("Wróć do listy", "Index")
+        </div>
+    }
+</div>

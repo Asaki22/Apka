@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="979a607e84194196bfce43039c345597" Name="Diagram1" ZoomLevel="97">
+        <EntityTypeShape EntityType="EntityDBModel.Magazyn" Width="1.5" PointX="1.125" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityDBModel.Produkty" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityDBModel.Spawanie" Width="1.5" PointX="5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityDBModel.Uzytkownicy" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityDBModel.Wypalanie" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityDBModel.Zaginanie" Width="1.5" PointX="5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityDBModel.Zlecenia" Width="1.5" PointX="1.125" PointY="3.375" IsExpanded="true" />
+        <AssociationConnector Association="EntityDBModel.FK_Magazyn_Produkty" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityDBModel.FK_Produkty_Zlecenia" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityDBModel.FK_Spawanie_Produkty" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityDBModel.FK_Wypalanie_Produkty" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityDBModel.FK_Zaginanie_Produkty" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EntityDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Magazyn">
+    <Key>
+      <PropertyRef Name="ProduktID" />
+    </Key>
+    <Property Name="ProduktID" Type="int" Nullable="false" />
+    <Property Name="Spakowano" Type="nvarchar" MaxLength="3" />
+    <Property Name="Wyslano" Type="nvarchar" MaxLength="3" />
+    <Property Name="Miejsce" Type="nvarchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="Produkty">
+    <Key>
+      <PropertyRef Name="ProduktID" />
+    </Key>
+    <Property Name="ProduktID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ZlecenieID" Type="int" />
+    <Property Name="Produkt" Type="nvarchar" MaxLength="50" />
+    <Property Name="IloscZamowiona" Type="int" />
+    <Property Name="Uwagi" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Spawanie">
+    <Key>
+      <PropertyRef Name="ProduktID" />
+    </Key>
+    <Property Name="ProduktID" Type="int" Nullable="false" />
+    <Property Name="IloscWykonana" Type="int" />
+    <Property Name="CzasSpawania" Type="int" />
+    <Property Name="Pospawano" Type="nvarchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="Uzytkownicy">
+    <Key>
+      <PropertyRef Name="UzytkownikID" />
+    </Key>
+    <Property Name="UzytkownikID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="50" />
+    <Property Name="Haslo" Type="nvarchar" MaxLength="100" />
+    <Property Name="Uprawnienia" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Wypalanie">
+    <Key>
+      <PropertyRef Name="ProduktID" />
+    </Key>
+    <Property Name="ProduktID" Type="int" Nullable="false" />
+    <Property Name="IloscWykonana" Type="int" />
+    <Property Name="CzasWypalania" Type="int" />
+    <Property Name="Wypalono" Type="nvarchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="Zaginanie">
+    <Key>
+      <PropertyRef Name="ProduktID" />
+    </Key>
+    <Property Name="ProduktID" Type="int" Nullable="false" />
+    <Property Name="IloscWykonana" Type="int" />
+    <Property Name="CzasZaginania" Type="int" />
+    <Property Name="Pogieto" Type="nvarchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="Zlecenia">
+    <Key>
+      <PropertyRef Name="ZlecenieID" />
+    </Key>
+    <Property Name="ZlecenieID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Firma" Type="nvarchar" MaxLength="50" />
+    <Property Name="Termin" Type="date" />
+  </EntityType>
+  <Association Name="FK_Magazyn_Produkty">
+    <End Role="Produkty" Type="Self.Produkty" Multiplicity="1" />
+    <End Role="Magazyn" Type="Self.Magazyn" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Produkty">
+        <PropertyRef Name="ProduktID" />
+      </Principal>
+      <Dependent Role="Magazyn">
+        <PropertyRef Name="ProduktID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Produkty_Zlecenia">
+    <End Role="Zlecenia" Type="Self.Zlecenia" Multiplicity="0..1" />
+    <End Role="Produkty" Type="Self.Produkty" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zlecenia">
+        <PropertyRef Name="ZlecenieID" />
+      </Principal>
+      <Dependent Role="Produkty">
+        <PropertyRef Name="ZlecenieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Spawanie_Produkty">
+    <End Role="Produkty" Type="Self.Produkty" Multiplicity="1" />
+    <End Role="Spawanie" Type="Self.Spawanie" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Produkty">
+        <PropertyRef Name="ProduktID" />
+      </Principal>
+      <Dependent Role="Spawanie">
+        <PropertyRef Name="ProduktID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Wypalanie_Produkty">
+    <End Role="Produkty" Type="Self.Produkty" Multiplicity="1" />
+    <End Role="Wypalanie" Type="Self.Wypalanie" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Produkty">
+        <PropertyRef Name="ProduktID" />
+      </Principal>
+      <Dependent Role="Wypalanie">
+        <PropertyRef Name="ProduktID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zaginanie_Produkty">
+    <End Role="Produkty" Type="Self.Produkty" Multiplicity="1" />
+    <End Role="Zaginanie" Type="Self.Zaginanie" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Produkty">
+        <PropertyRef Name="ProduktID" />
+      </Principal>
+      <Dependent Role="Zaginanie">
+        <PropertyRef Name="ProduktID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EntityDBModelStoreContainer">
+    <EntitySet Name="Magazyn" EntityType="Self.Magazyn" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Produkty" EntityType="Self.Produkty" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Spawanie" EntityType="Self.Spawanie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Uzytkownicy" EntityType="Self.Uzytkownicy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Wypalanie" EntityType="Self.Wypalanie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Zaginanie" EntityType="Self.Zaginanie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Zlecenia" EntityType="Self.Zlecenia" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Magazyn_Produkty" Association="Self.FK_Magazyn_Produkty">
+      <End Role="Produkty" EntitySet="Produkty" />
+      <End Role="Magazyn" EntitySet="Magazyn" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Produkty_Zlecenia" Association="Self.FK_Produkty_Zlecenia">
+      <End Role="Zlecenia" EntitySet="Zlecenia" />
+      <End Role="Produkty" EntitySet="Produkty" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Spawanie_Produkty" Association="Self.FK_Spawanie_Produkty">
+      <End Role="Produkty" EntitySet="Produkty" />
+      <End Role="Spawanie" EntitySet="Spawanie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Wypalanie_Produkty" Association="Self.FK_Wypalanie_Produkty">
+      <End Role="Produkty" EntitySet="Produkty" />
+      <End Role="Wypalanie" EntitySet="Wypalanie" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zaginanie_Produkty" Association="Self.FK_Zaginanie_Produkty">
+      <End Role="Produkty" EntitySet="Produkty" />
+      <End Role="Zaginanie" EntitySet="Zaginanie" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

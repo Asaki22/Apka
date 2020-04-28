@@ -1,0 +1,46 @@
+﻿@model PagedList.IPagedList<App.Models.Produkty>
+@using PagedList.Mvc;
+
+
+<h2>Postęp</h2>
+@using (Html.BeginForm("Postep", "Produkty", FormMethod.Get))
+{
+    <p>
+        @Html.TextBox("search", ViewBag.filter as string)
+        <input type="submit" value="Szukaj" />
+    </p>
+}
+<br /><br />
+
+<table class="table table-hover">
+    <tr>
+        <td>@Html.ActionLink("Produkt", "Postep", new { sortowanie = ViewBag.Produkt, page = ViewBag.Strona, filter = ViewBag.filter }, new { style = "color: black;" })</td>
+        <td>@Html.ActionLink("Firma", "Postep", new { sortowanie = ViewBag.Firma, page = ViewBag.Strona, filter = ViewBag.filter }, new { style = "color: black;" })</td>
+        <td>@Html.ActionLink("Termin", "Postep", new { sortowanie = ViewBag.Termin, page = ViewBag.Strona, filter = ViewBag.filter }, new { style = "color: black;" })</td>
+        <td>@Html.ActionLink("Wypalono", "Postep", new { sortowanie = ViewBag.Wypalono, page = ViewBag.Strona, filter = ViewBag.filter }, new { style = "color: black;" })</td>
+        <td>@Html.ActionLink("Pogięto", "Postep", new { sortowanie = ViewBag.Pogieto, page = ViewBag.Strona, filter = ViewBag.filter }, new { style = "color: black;" })</td>
+        <td>@Html.ActionLink("Pospawano", "Postep", new { sortowanie = ViewBag.Pospawano, page = ViewBag.Strona, filter = ViewBag.filter }, new { style = "color: black;" })</td>
+        <td>@Html.ActionLink("Spakowano", "Postep", new { sortowanie = ViewBag.Spakowano, page = ViewBag.Strona, filter = ViewBag.filter }, new { style = "color: black;" })</td>
+        <td>@Html.ActionLink("Wysłano", "Postep", new { sortowanie = ViewBag.Wyslano, page = ViewBag.Strona, filter = ViewBag.filter }, new { style = "color: black;" })</td>
+        <td>@Html.ActionLink("Uwagi", "Postep", new { sortowanie = ViewBag.Uwagi, page = ViewBag.Strona, filter = ViewBag.filter }, new { style = "color: black;" })</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Produkt)</td>
+            <td>@Html.DisplayFor(modelItem => item.Zlecenia.Firma)</td>
+            <td>@Html.DisplayFor(modelItem => item.Zlecenia.Termin)</td>
+            <td>@Html.DisplayFor(modelItem => item.Wypalanie.Wypalono)</td>
+            <td>@Html.DisplayFor(modelItem => item.Zaginanie.Pogieto)</td>
+            <td>@Html.DisplayFor(modelItem => item.Spawanie.Pospawano)</td>
+            <td>@Html.DisplayFor(modelItem => item.Magazyn.Spakowano)</td>
+            <td>@Html.DisplayFor(modelItem => item.Magazyn.Wyslano)</td>
+            <td>@Html.DisplayFor(modelItem => item.Uwagi)</td>
+        </tr>
+    }
+</table>
+
+Strona @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Postep", new { page, sortowanie = ViewBag.SortBy, filter = ViewBag.filter }))
+

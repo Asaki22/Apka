@@ -1,0 +1,51 @@
+﻿@model App.Models.Wypalanie
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h2>Wypalanie</h2>
+    <h4>Edycja</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.ProduktID)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.IloscWykonana, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.IloscWykonana, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.IloscWykonana, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CzasWypalania, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CzasWypalania, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.CzasWypalania, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Wypalono, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            nie:
+            @Html.RadioButtonFor(model => model.Wypalono, "nie")
+            tak:
+            @Html.RadioButtonFor(model => model.Wypalono, "tak")
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Zapisz" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Wróć do listy", "Index")
+</div>

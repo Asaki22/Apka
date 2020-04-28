@@ -1,0 +1,57 @@
+﻿@using App.Models
+@model LoginViewModel
+@{
+    Layout = null;
+}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link rel="stylesheet" href="~/Content/Style.css">
+</head>
+<body>
+
+
+    <div id="login">
+        <div class="col-md-8">
+            <section id="loginForm">
+                @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+            @Html.AntiForgeryToken()
+
+
+            <div class="form-group">
+                
+                <div>
+                    @Html.TextBoxFor(m => m.Email, new { placeholder="Login"})
+                </div>
+            </div>
+            <div class="form-group">
+                
+                <div>
+                    @Html.PasswordFor(m => m.Password, new { placeholder = "Hasło" })
+                </div>
+            
+            </div>
+            
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Zaloguj" id="button" />
+                </div>
+                @Html.ValidationSummary(true, "", new { @class = "text-danger", style="color: red"})
+            </div>
+
+
+    }
+            </section>
+        </div>
+        
+    </div>
+    </body>
+</html>
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+
+
